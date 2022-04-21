@@ -4,7 +4,7 @@ class Dice:
 	def __init__(self, sides):
 		self.sides = sides
 
-	def roll(self, times):
+	def roll(self, times): #function that rolls die
 		while times != 0:
 			roll = random.randint(1,self.sides)
 			print(f"You rolled a {roll}")
